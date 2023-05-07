@@ -1,11 +1,10 @@
 import { Outlet } from "react-router-dom";
-import { SmallNavBar } from "./smallNavBar";
+import { NavBar } from "./NavBar";
 
 export function RootLayout() {
   return (
     <>
-      <SmallNavBar />
-
+      <NavBar />
       <Outlet />
     </>
   );
