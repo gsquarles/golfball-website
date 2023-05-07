@@ -12,7 +12,7 @@ export function NavBar() {
       <header className='w-full bg-primary flex p-6 relative'>
         <div className='w-2/3 flex items-center'>
           <div className='w-2/3'>
-            <Link to='/' className='text-lg md:text-2xl text-white'>
+            <Link to='/' className='text-lg md:text-2xl lg:text-4xl text-white'>
               ProPond Golf Ball Retrieval
             </Link>
           </div>
