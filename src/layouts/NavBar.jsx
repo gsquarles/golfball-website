@@ -7,6 +7,7 @@ export function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => setIsOpen(!isOpen);
+  const closeMenu = () => setIsOpen(false);
   return (
     <>
       <header className='w-full bg-primary flex p-6 lg:p-3 relative'>
@@ -25,7 +26,7 @@ export function NavBar() {
           <div className='md:flex hidden'>
             <ul className='md:flex md:items-center'>
               <li className='p-1 md:p-2'>
-                <Link to='/' className='text-lg md:text-xl text-white'>
+                <Link to='/' className='text-lg md:text-xl text-white '>
                   Home
                 </Link>
               </li>
@@ -53,18 +54,26 @@ export function NavBar() {
               } md:hidden absolute w-full top-full z-10 left-3/4`}
             >
               <li className='p-1'>
-                <Link to='/' className='text-lg text-white'>
+                <Link to='/' className='text-lg text-white' onClick={closeMenu}>
                   Home
                 </Link>
               </li>
 
               <li className='p-1'>
-                <Link to='/services' className='text-lg text-white'>
+                <Link
+                  to='/services'
+                  className='text-lg text-white'
+                  onClick={closeMenu}
+                >
                   Services
                 </Link>
               </li>
               <li className='p-1'>
-                <Link to='/contact' className='text-lg text-white'>
+                <Link
+                  to='/contact'
+                  className='text-lg text-white'
+                  onClick={closeMenu}
+                >
                   Contact
                 </Link>
               </li>
