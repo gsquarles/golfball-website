@@ -29,11 +29,7 @@ export function NavBar() {
                   Home
                 </Link>
               </li>
-              <li className='p-1 md:p-2 text-center'>
-                <Link to='/about' className='text-lg md:text-xl text-white'>
-                  About Us
-                </Link>
-              </li>
+
               <li className='p-1 md:p-2'>
                 <Link to='/services' className='text-lg md:text-xl text-white'>
                   Services
@@ -53,7 +49,7 @@ export function NavBar() {
             </button>
             <ul
               className={`${
-                isOpen ? "block" : "hidden"
+                isOpen ? "block bg-primary" : "hidden"
               } md:hidden absolute w-full top-full z-10 left-3/4`}
             >
               <li className='p-1'>
@@ -61,11 +57,7 @@ export function NavBar() {
                   Home
                 </Link>
               </li>
-              <li className='p-1'>
-                <Link to='/about' className='text-lg text-white'>
-                  About Us
-                </Link>
-              </li>
+
               <li className='p-1'>
                 <Link to='/services' className='text-lg text-white'>
                   Services
