@@ -9,7 +9,7 @@ export function NavBar() {
   const toggleMenu = () => setIsOpen(!isOpen);
   return (
     <>
-      <header className='w-full bg-primary flex p-6 relative'>
+      <header className='w-full bg-primary flex p-6 lg:p-3 relative'>
         <div className='w-2/3 flex items-center'>
           <div className='w-2/3'>
             <Link to='/' className='text-lg md:text-2xl lg:text-4xl text-white'>
