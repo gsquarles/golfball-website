@@ -14,7 +14,7 @@ export function NavBar() {
         <div className='w-2/3 flex items-center'>
           <div className='w-2/3'>
             <Link to='/' className='text-lg md:text-2xl lg:text-4xl text-white'>
-              ProPond Golf Ball Retrieval
+              Tee to Green Retrieval
             </Link>
           </div>
           <div className='w-1/3 '>

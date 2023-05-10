@@ -1,4 +1,7 @@
+import { useTitle } from "../useTitle";
+
 export function Services() {
+  useTitle("Services");
   return (
     <>
       <div className='w-full py-3 md:py-6 lg:py-10 flex items-center justify-center border-b-2 border-primary'>
@@ -26,13 +29,12 @@ export function Services() {
             Resale
           </h1>
           <p className=' text-sm md:text-xl md:mt-3 lg:text-2xl'>
-            At ProPond Golf Ball Retrieval, we help you save money on golf
-            balls. After retrieving the balls, we sort them based on their
-            condition, and those that are in good shape are sold back to golfers
-            at a fraction of the cost of new balls. We also offer the option for
-            the course to take a portion of the retrieved balls back for free,
-            if they choose. This saves the golfer and the course money on
-            quality golf balls for range or game use.
+            Through our fair partnership approach, we pay courses a competitive
+            rate for every ball we retrieve, ensuring a mutually beneficial
+            relationship. Additionally, we provide the option for courses to
+            receive a portion of the recovered balls, promoting collaboration
+            and sustainability. Join us in our mission to rescue forgotten golf
+            balls and create a win-win solution for golfers and courses alike.
           </p>
         </div>
         <div className='px-4 py-1 md:w-3/4 md:px-6 md:py-3 lg:px-10 flex flex-col items-center md:col-span-2'>

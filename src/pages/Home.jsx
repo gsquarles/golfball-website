@@ -2,8 +2,10 @@ import PondImg from "../imgs/homeHeroPond.jpg";
 import OpportunityImg from "../imgs/opportunity.jpg";
 import SafetyImg from "../imgs/safety.png";
 import RatingImg from "../imgs/rating.png";
+import { useTitle } from "../useTitle";
 
 export function Home() {
+  useTitle("Home");
   return (
     <>
       <section

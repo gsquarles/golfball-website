@@ -6,7 +6,7 @@ export function Footer() {
     <footer className='w-full bg-primary p-4 text-white md:flex  md:space-x-10 md:items-center md:justify-center'>
       <div>
         <div className='flex items-center space-x-5 md:mr-28'>
-          <h1 className='text-2xl'>ProPond Golf Ball Retrieval</h1>
+          <h1 className='text-2xl'>Tee to Green Retrieval</h1>
           <img src={logo} alt='logo' className=' w-1/5 md:w-40' />
         </div>
       </div>
@@ -37,7 +37,7 @@ export function Footer() {
         <br />
         <br />
         <div className=' text-xs'>
-          &copy; 2023 ProPond Golf Ball Retrieval. All Rights Reserved.
+          &copy; 2023 Tee to Green Retrieval. All Rights Reserved.
         </div>
       </div>
     </footer>
