@@ -22,7 +22,7 @@ export function Home() {
             href='tel:1234567'
             className=' text-xl text-center text-white font-bold lg:text-4xl mt-2 lg:mt-4'
           >
-            Call us at: (333)-444-5555
+            Call us at: (765)465-9875
           </a>
         </div>
       </section>
